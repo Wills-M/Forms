@@ -11,5 +11,18 @@ public class Choice implements Serializable {
 	{
 		ChoiceID = choiceID;
 		ChoiceString = choiceString;
+	
+}
+
+	@Override
+	public boolean equals(Object obj) {
+		return this.ChoiceID == ((Choice)obj).ChoiceID
+				&& this.ChoiceString == ((Choice)obj).ChoiceString;
+	}
+
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
 	}
 }

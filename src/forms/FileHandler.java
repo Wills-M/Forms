@@ -9,7 +9,7 @@ public class FileHandler{
         try
         {   
             //Saving of object in a file
-        	FileOutputStream file = new FileOutputStream(filename + ".ser");
+        	FileOutputStream file = new FileOutputStream(filename);
         	ObjectOutputStream out = new ObjectOutputStream(file);
              
             // Method for serialization of object

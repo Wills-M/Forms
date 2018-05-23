@@ -1,6 +1,7 @@
 package forms;
 
 public class MultipleChoiceResponse extends Response{
+	private static final long serialVersionUID = 7117149641257730933L;
 	private Choice response;
 	
 	public MultipleChoiceResponse(Choice choice)
